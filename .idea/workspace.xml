@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcb33d2b-2c3a-4e58-b5e3-e7218a573f4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/exception/AddressException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/BaseAddressUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java" afterDir="false" />
     </list>
@@ -25,14 +28,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="2531" />
+          <entry key="java" value="3295" />
           <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="2531" />
+          <entry key="JAVA" value="3270" />
+          <entry key="Scratch" value="25" />
           <entry key="XML" value="49" />
         </counts>
       </usages-collector>
@@ -40,7 +44,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="96" />
+          <entry key="java" value="121" />
           <entry key="json" value="5" />
           <entry key="xml" value="5" />
         </counts>
@@ -49,8 +53,9 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="118" />
           <entry key="JSON" value="5" />
+          <entry key="Scratch" value="3" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -61,10 +66,10 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/Application.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+                <state relative-caret-position="155">
+                  <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -79,8 +84,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/addresses.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="53" column="25" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="25" />
+                <state relative-caret-position="238">
+                  <caret line="17" column="23" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -113,8 +118,11 @@
         <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/model/AddressLineDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/model/ProvinceOrState.java" />
         <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/model/Country.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/BaseAddressUtil.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/exception/AddressException.java" />
         <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java" />
       </list>
     </option>
   </component>
@@ -131,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -204,14 +211,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="investech" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="investech" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548953251769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548959300671" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../learning/psy_grad2018/projects/java_basic" />
@@ -225,6 +242,8 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="mpathozulu.assessment.investech.exception" />
+      <recent name="mpathozulu.assessment.investech.util" />
       <recent name="mpathozulu.assessment.investech.model" />
     </key>
   </component>
@@ -281,14 +300,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" factoryName="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.GCDUtilTest" />
       <item itemvalue="Application.AddressUtil" />
       <item itemvalue="Application.Application" />
+      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.AddressUtil" />
         <item itemvalue="JUnit.GCDUtilTest" />
       </list>
@@ -376,34 +404,34 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24941543" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SQL Android" order="0" />
-      <window_info anchor="bottom" id="SQL" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32843137" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24941543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24941543" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SQL" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SQL Android" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24941543" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -539,22 +567,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="272" column="11" selection-start-line="272" selection-start-column="11" selection-end-line="272" selection-end-column="11" />
+          <folding>
+            <element signature="e#10720#10721#0" expanded="true" />
+            <element signature="e#10750#10751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Something.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/BaseAddressUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/addresses.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/exception/AddressException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,7 +624,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mpathozulu/assessment/investech/util/AddressUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

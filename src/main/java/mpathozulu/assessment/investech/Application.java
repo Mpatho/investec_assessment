@@ -12,6 +12,7 @@ public class Application {
         AddressUtil addressUtil = new AddressUtil(file);
         addressUtil.prettyPrintAddress();
         for (Address address : addressUtil.getAddresses()) {
+            System.out.println(addressUtil.isValidAddress(address));
             addressUtil.printAddress(address);
         }
     }
