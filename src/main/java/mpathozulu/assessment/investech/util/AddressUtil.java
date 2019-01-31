@@ -37,6 +37,16 @@ public class AddressUtil {
         }
     }
 
+    public void printAddress(Address address) {
+        printAddressLineDetail(address.getAddressLineDetail());
+        printSuburbOrDistrict(address.getSuburbOrDistrict());
+        printCityOrTown(address.getCityOrTown());
+        printProvinceOrState(address.getProvinceOrState());
+        printPostalCode(address.getPostalCode());
+        printCountry(address.getCountry());
+        System.out.println("-----------------------------");
+    }
+
     public String prettyPrintAddress(Address address) {
         String type = prettyPrintType(address.getType());
         String addressLineDetail = prettyPrintAddressLineDetail(address.getAddressLineDetail());
@@ -48,7 +58,7 @@ public class AddressUtil {
         return String.format(format, type, addressLineDetail, cityOrTown, provinceOrState, postalCode, country);
     }
 
-    private List<Address> getAddresses() {
+    public List<Address> getAddresses() {
         List<Address> addresses = new ArrayList<>();
         try {
             JSONArray parse = (JSONArray) parser.parse(new FileReader(file));
@@ -121,7 +131,6 @@ public class AddressUtil {
             } else if (field.getType().equals(Long.class)) {
                 setVariable(obj, field.getName(), Long.valueOf((String) value));
             } else if (field.getType().equals(Date.class)) {
-                System.out.println(value);
                 setVariable(obj, field.getName(), format.parse((String) value));
             }
         }
@@ -133,6 +142,41 @@ public class AddressUtil {
         field.setAccessible(true);
         field.set(obj, value);
         field.setAccessible(false);
+    }
+
+    private void printProvinceOrState(ProvinceOrState provinceOrState) {
+        if (provinceOrState != null) {
+            System.out.printf("Province or State \t\t : %s%n", provinceOrState.getName());
+        }
+    }
+
+    private void printCityOrTown(String cityOrTown) {
+        if (cityOrTown != null) {
+            System.out.printf("City or Town \t\t\t : %s%n", cityOrTown);
+        }
+    }
+
+    private void printAddressLineDetail(AddressLineDetail addressLineDetail) {
+        if (addressLineDetail != null) {
+            System.out.printf("Address Line Detail \t : %s, %s%n", addressLineDetail.getLine1(), addressLineDetail.getLine2());
+        }
+    }
+
+    private void printPostalCode(String postalCode) {
+        if (postalCode != null) {
+            System.out.printf("Postal Code \t\t\t : %s%n", postalCode);
+        }
+    }
+
+    private void printCountry(Country country) {
+        if (country != null) {
+            System.out.printf("Country \t\t\t\t : %s%n", country.getName());
+        }
+    }
+    private void printSuburbOrDistrict(String suburbOrDistrict) {
+        if (suburbOrDistrict != null) {
+            System.out.printf("Suburb or District \t\t : %s%n", suburbOrDistrict);
+        }
     }
 }
 
